@@ -1,0 +1,83 @@
+.section-cards {
+    display: flex;
+    justify-content: space-between;
+        margin: 0 auto;
+}
+
+.card-saludo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 920px;
+    height: 160px;
+    border: 1px solid #ccc;
+    padding: 16px 24px;
+    margin-left: 20px;
+    border-radius: 6px;
+}
+
+.card-saludo__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+    /* Espacio entre encabezado y párrafo */
+}
+
+.saludo-text {
+    display: flex;
+    align-items: center;
+}
+
+.saludo-text img {
+    margin-right: 10px;
+}
+
+.card-saludo h2 {
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+
+.card-saludo p {
+    font-family: "Inter", sans-serif;
+    
+    font-size: 32px;
+    margin-top: 20px;
+    
+}
+
+.cards{
+    width: 398px;
+    height: 160px;
+    border-radius: 6px;
+    // padding: 30px 24px;
+    display: flex;
+
+}
+.card-ahorro,
+.card-recibe {
+    flex: 1;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.card-ahorro img,
+.card-recibe img {
+    margin-bottom: 10px;
+}
+
+.card-ahorro p,
+.card-recibe p {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}

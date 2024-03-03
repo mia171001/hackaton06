@@ -1,0 +1,192 @@
+@charset "UTF-8";
+header {
+  border-bottom: 1px solid #5B6776;
+  /* Línea de separación en la parte inferior del header */
+  padding-bottom: 10px;
+}
+
+main {
+  margin-top: 20px;
+  /* Margen en la parte superior del main para separarlo del header */
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  padding-left: 40px;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  padding-left: 40px;
+  color: #5B6776;
+}
+
+.Navigation-Items {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  /* Espaciar los elementos */
+}
+
+.Navigation-Item {
+  margin-right: 10px;
+  /* Espacio entre elementos */
+}
+
+.Navigation-Item:last-child {
+  /* Eliminar margen del último elemento */
+  margin-left: auto;
+  /* Mover el último elemento a la derecha */
+}
+
+.section-cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.card-saludo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 920px;
+  height: 160px;
+  border: 1px solid #ccc;
+  padding: 16px 24px;
+  margin-left: 20px;
+  border-radius: 6px;
+}
+
+.card-saludo__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+  /* Espacio entre encabezado y párrafo */
+}
+
+.saludo-text {
+  display: flex;
+  align-items: center;
+}
+
+.saludo-text img {
+  margin-right: 10px;
+}
+
+.card-saludo h2 {
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+.card-saludo p {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.cards {
+  width: 398px;
+  height: 160px;
+  border-radius: 6px;
+  display: flex;
+}
+
+.card-ahorro,
+.card-recibe {
+  flex: 1;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.card-ahorro img,
+.card-recibe img {
+  margin-bottom: 10px;
+}
+
+.card-ahorro p,
+.card-recibe p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sections-tarjetas {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.section-tarjeta-item {
+  width: 418px;
+  height: 225px;
+  margin-left: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 24px;
+}
+
+.tarjeta-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.tarjeta-text {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.tarjeta-text-img {
+  margin-right: 10px;
+}
+
+.section-tarjeta-item h2 {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+
+.classcrear {
+  width: 1670px;
+  height: 124px;
+  border-radius: 6px;
+  border: 1px solid #E2E8F0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.classcrear img {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  /* Ajusta el espacio entre la imagen y el texto */
+}
+
+.classcrear p {
+  color: #4F46E5;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}/*# sourceMappingURL=styles.css.map */
