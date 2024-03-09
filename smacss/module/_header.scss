@@ -1,20 +1,52 @@
+.Navigation {
+  padding: 36px 48px;
+}
+
 .Navigation-Items {
-    list-style-type: none;
-    // padding: 0;
-    // margin: 0;
-    display: flex;
-    justify-content: space-between;
-    /* Espaciar los elementos */
+  list-style-type: none;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .Navigation-Item {
-    margin-right: 10px;
-    /* Espacio entre elementos */
+  margin-right: 10px;
+  cursor: pointer;
 }
 
 .Navigation-Item:last-child {
-    // margin-right: 0;
-    /* Eliminar margen del último elemento */
-    margin-left: auto;
-    /* Mover el último elemento a la derecha */
+  margin-left: auto;
+}
+.Navigation-mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .Navigation {
+    display: none;
+  }
+  .Navigation-mobile {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 16px;
+  }
+
+  .Navigation-Item-mobile {
+    cursor: pointer;
+  }
+  .Item-text {
+    display: flex;
+    align-items: center;
+  }
+  .Item-text img {
+    margin-right: 5px;
+  }
+
+  .parrafo-ahorra-ya {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    color: #4f46e5;
+    font-weight: 400;
+    font-style: italic;
+  }
 }

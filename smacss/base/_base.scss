@@ -1,18 +1,25 @@
 *,
 ::before,
 ::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-    font-family: 'Inter', sans-serif;
-    font-size: 32px;
-    padding-left: 40px;
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  padding-left: 40px;
 }
 
-p{
-    font-family: 'Inter',sans-serif;
-    font-size: 14px;
-    padding-left: 40px;
-    color: #5B6776;
+.parrafop {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  padding-left: 40px;
+  color: #5b6776;
+}
+
+body {
+  max-width: 95%;
+  margin: auto;
 }
