@@ -1,16 +1,15 @@
 .sections-tarjetas {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
   justify-content: space-between;
   margin-top: 20px;
-  margin-bottom: 30px;
 }
 .section-tarjeta-item {
-  width: 418px;
-  height: 225px;
   border-radius: 6px;
   border: 1px solid #ccc;
   padding: 24px;
   cursor: pointer;
+  margin-bottom: 30px;
 }
 
 .tarjeta-header {
@@ -18,7 +17,6 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 10px;
 }
 
 .tarjeta-text {
@@ -64,8 +62,7 @@
 
 @media (max-width: 767px) {
   .sections-tarjetas {
-    display: grid;
-    justify-content: center;
+    grid-template-columns: 100%;
   }
 
   .section-tarjeta-item {
